@@ -4263,6 +4263,8 @@ Last Update: March 14, 2019
             margin-left: 300px;
             scale: 1.5;
         }
+
+       
         
         @media (max-width: 768px) {
             .about-thumb {
@@ -4309,6 +4311,50 @@ Last Update: March 14, 2019
             margin-top: 420px;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        @media (max-width: 767px) {
+            .hero {
+                margin: 0;
+
+                min-height: 100vh;
+                background-position: center;
+            }
+            .header-text {
+
+                width: 100vw;
+                top: 48%; /* Moved down slightly */
+            }
+            .head-main {
+                font-size: 64px;
+            }
+            .head-sub {
+                font-size: 20px;
+            }
+            .head-details {
+                margin-top: 320px; 
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1284px) and (orientation: landscape) {
+            .hero {
+                margin: 0;
+                min-height: 100vh;
+                background-position: center;
+            }
+            .header-text {
+                width: 100vw;
+                top: 45%;
+            }
+            .head-main {
+                font-size: 80px;
+            }
+            .head-sub {
+                font-size: 24px;
+            }
+            .head-details {
+                margin-top: 340px;
+            }
         }
         
         .head-sub {
@@ -4472,7 +4518,12 @@ Last Update: March 14, 2019
         .tracks-img {
             max-height: 181px;
             max-width: 250px;
+        
+            filter: brightness(78%) sepia(327%) hue-rotate(317deg) saturate(347%);
+            transition: filter 0.3s ease;
         }
+
+    
         
         .register-button {
             background: #2C3740;
