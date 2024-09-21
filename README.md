@@ -1,1 +1,1 @@
-# Silicon Maze 2024
+# Silicon Maze
