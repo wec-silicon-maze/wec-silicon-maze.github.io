@@ -4300,6 +4300,7 @@ Last Update: March 14, 2019
             font-weight: 400;
             letter-spacing: 10px;
             color: #ffffff;
+            /* #FFD700 */
             /* #E3350D */
             /* #E3350D */
             animation: moveInLeft 1.5s ease-in;
@@ -4333,6 +4334,32 @@ Last Update: March 14, 2019
             }
             .head-details {
                 margin-top: 320px; 
+            }
+        }
+
+        @media (max-width: 375px) {
+            .hero {
+                min-height: 100vh;
+                background-position: center;
+            }
+            .header-text {
+                width: 100vw;
+                top: 45%;
+            }
+            .head-main {
+                font-size: 48px;
+                letter-spacing: 6px;
+            }
+            .head-sub {
+                font-size: 18px;
+                letter-spacing: 4px;
+            }
+            .head-details {
+                margin-top: 200px;
+            }
+            .event-date {
+                font-size: 16px;
+                margin: 20px;
             }
         }
 
